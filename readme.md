@@ -1,8 +1,6 @@
-# The three parking membership services
+# DMU The three parking membership services
 
-A simple CSS-only 3-tab layout is provided, with a tab for HTML5, CSS and JavaScript.
-
-Use this to **add 5 things you know about each language** to **each section** actually using each language as follows! At least reach stage 2.
+There are the following packages to purchase for the DMU car park service
 
 ## Package 1: Bronze
 
