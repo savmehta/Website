@@ -1,20 +1,6 @@
-     
-    ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    }
+body {
+    background: url('Background.png') no-repeat;
+    background-size: cover;
+    font-family: arial
     
-    a:link,a:visited{
-    display: block;
-    front-weight:bold;
-    color:blue;
-    background-color: #98bf21;
-    width:120px
-    text-align:centre;
-    padding:4px;
-    }
-    li{
-    float:left;
-    }
+}
