@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <title>iTravel</title>
-    <link href='styles/styles.css' rel='stylesheet' >
+    <meta charset="utf-8" />
+    
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" conten="width=device-width, initial-scale1.0">
 </head>
-<body>
-<div id="main">
+
+<body> class="body">
+    
         <nav> 
                 <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="services">Services</a></li>      
+                <div class="navbar">
+                    <li><a class="active"
+                href="home">Home</a></li>
+                    <li><a href="services">Services</a></li>   
+                    <div class="dropdown">
+                        <button class="dropbtn">Top Travel Destinations
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                <div class="dropdown-content">
+                    <li><a href="rome">Rome</a></li>
+                    <li><a href="berlin">Berlin</a></li>
+                    <li><a href="dubai">Dubai</a></li>
+                    </div>
+                    </div> 
+                    </div>
+                    
+                    
+                    
                     <li><a href="top travel destinations">Top Travel Destinations</a>
                 <ul>
                     <li><a href="rome">Rome</a></li>
@@ -26,10 +47,13 @@
                 </ul>
                     </li>                 
                     <li><a href="contact us">Contact Us</a></li>
+                </div>
                 </ul>
-        </nav>
-</div>
-</body>
+                    
+                    
+                </nav>
+            
+                 </body>
 
 </html>
 
