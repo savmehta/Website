@@ -1,38 +1,73 @@
 body {
-    width: 100%;
-    height 100vh;
     background: url('Background.png')no-repeat;
     background-size: cover;    
     font-family:fantasy
+    color: #000305;
+    font-size: 87.5% /* Base font size is 14px */
+    line-height: 1.5;
+    text-align: left
 }
-nav u1 {
-    margin: 0x;
-    padding: 0px;
-    list-style: none;
-    opacity: 80%;
+
+a{
+    text-decoration: none;
 }
-ul li {
-    float: left;
-    width: 200px;
-    height: 40px;
-    background-color: green
-    line-height: 40px;
-    text-align: center
+
+a:link, a:visited {
     
 }
-ul li a{
-    text-decoration: none;
-    color:black;
+
+a:hover, a:active {
+    
+}
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.mainheader img {
+    width: 10%;
+    height: auto;
+    margin: 2% 0;
+}
+
+.mainheader nav {
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
     display: block;
-    font-size:  20px;
-
-}
-ul li a:hover {
-    background-color: green;
-
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+li a:hover:not(.active) {
+    background-color: #111;
+}
 
+.active {
+    background-color: #4CAF50;
+}
 
 
 
