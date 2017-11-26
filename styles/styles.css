@@ -1,11 +1,18 @@
-body {
-    background: url('Background.png')no-repeat;
-    background-size: cover;    
-    font-family:fantasy
-    color: #000305;
-    font-size: 87.5% /* Base font size is 14px */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(Background.png);
+    background-size: cover;
+    min-height: 100vh;
     line-height: 1.5;
-    text-align: left
+    font-family: fantasy;
+    font-size: 87.5%;
+    text-align: left;
 }
 
 a{
@@ -13,63 +20,174 @@ a{
 }
 
 a:link, a:visited {
-    
+    color: #CF5C3F;
 }
 
 a:hover, a:active {
+    background-color: #CF5C3F;
+    color: #FFF;
+}
+nav{
+    text-align: center;
     
 }
-.body {
-    margin: 0 auto;
-    width: 70%;
-    clear: both;
-}
 
-.mainheader img {
+.mainHeader img {
     width: 10%;
-    height: auto;
-    margin: 2% 0;
+    height: auto
 }
 
-.mainheader nav {
-    background-color: black;
+.menu{
+    display: inline-block;
+    
+}
+
+.menu > li {
+    
+    float: left;
+    color: peachpuff;
+    width: 150px;
     height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0, 0.7);
+    cursor: pointer;
+    font-size: 17px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
 
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+.sub-menu{
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 300ms ease-in-out;
 }
 
-li {
+.sub-menu li{
+    font-size: 14px;
+    background: rgba(0,0,0, 0.7);
+    padding: 4px 0;
+    color: white;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+    /* display: none; */
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 400ms ease-in-out;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.sub-menu li:last-child{
+    border-bottom: 1;
+}
+
+.sub-menu li:hover{
+    background-color: black
+}
+
+.menu > li:hover .sub-menu 
+li{
+    /* display: block;*/
+    transform: scale(1);
+}
+
+.menu > li:hover .sub-menu {
+    transform: scale(1);
+    
+}
+
+.mainContent{ 
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 0;
+}
+
+.content {
+    width: 70%;
     float: left;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.topcontent {
+    width: 90%;
+    background-color:floralwhite;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding:5%;
+    margin: 2% 0 2% 3%;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+.bottomcontent {
+    background-color:floralwhite;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
 }
 
-.active {
-    background-color: #4CAF50;
+.top-sidebar {
+    width: 27%;
+    float: left;
+    background-color:floralwhite;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
 }
 
+.post-info{
+    font-style: italic;
+    color: #999;
+    font-size: 85%;
+}
 
+.middle-sidebar {
+    width: 27%;
+    float: left;
+    background-color: floralwhite;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+}
 
+.bottom-sidebar {
+    width: 27%;
+    float: left;
+    background-color: floralwhite;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+}
 
+.mainFooter {
+    width: 100%;
+    height: 40px;
+    float: left;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin: 2% 0;
+}
 
+.mainFooter p {
+    width: 92%;
+    margin: 10px auto;
+    colour: #FFF;   
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    
+    
