@@ -1,21 +1,3 @@
-/* GLOBAL AND MOBILE STYLES*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Index Page Body Positioning */
 *{
     margin: 0px;
@@ -24,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Index Page Body Styling */
+/*Index Page Body Styling*/
 body{
     background: url(Background.png);
     background-size: cover;
@@ -35,6 +17,9 @@ body{
     text-align: left;
 }
 
+.btext{
+    color: black;
+}
 /* Index Page Content Box Heading Hyperlinks */
 a{
     text-decoration: none;
@@ -105,7 +90,7 @@ nav{
 
 /* Sub Menu Navigation Bar Last Item Styling */
 .sub-menu li:last-child{
-    border-bottom: 1;
+    border-bottom: 1px;
 }
 
 /* Sub Menu Navigation Bar Hover */
@@ -135,7 +120,7 @@ li{
 
 /* Second Main Content Box Styling */
 .topcontent {
-     width: 90%;
+    width: 90%;
     background-color:floralwhite;
     border-radius: 5px;
     padding:2%;
@@ -195,6 +180,72 @@ li{
     margin: auto;
 }
 
+#map {
+  height: 400px;
+  width: 50%;
+}
 
+.slideshow {
+  margin: 2em auto 1em;
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+slideshow img {
+  position: absolute;
+  width: 500px;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) { animation-delay: 12s; }
+img:nth-child(2) { animation-delay: 8s; }
+img:nth-child(3) { animation-delay: 4s; }
+img:nth-child(4) { animation-delay: 0s; }
     
-    
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color:floralwhite;
+    padding: 20px;
+}
