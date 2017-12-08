@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 3em;
     color: rgba(255,255,255,.1);
     background-image:url(Plane.jpg);
     background-repeat: repeat-x;
@@ -47,7 +47,7 @@ body{
     background-size:cover;
     min-height: 100vh;
     line-height: 1.5;
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: fantasy;
     font-size: 60%;
     text-align: left;
 }
@@ -111,10 +111,9 @@ nav{
 
 /* Sub Menu Navigation Bar Styling */
 .sub-menu li{
-    font-size: 9px;
     width: 70px;
     height: 30px;
-    line-height: 30px;
+    font-size: 10px;
     background: rgba(0,0,0, 0.7);
     padding: 4px 0;
     color: white;
@@ -164,6 +163,53 @@ li{
     padding:2%;
     margin: 3% 100% 1% 5%;
 }
+.container{
+    width: 300px;
+    overflow: hidden;
+    
+}
+.sliderbox{
+    position: relative;
+    width: 200px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.sliderbox img{
+    float: left;
+}
+
+@keyframes slideranimation{
+    0%
+    {
+        left: 0px;
+    }
+    20% /* 4 second */
+    {
+        left: 0px;
+    }
+    25% /* 5 second */
+    {
+        left: -100px;
+    }
+    45% /* 9 second */
+    {
+        left: -200px;
+    }
+    50% /* 10 second */
+    {
+        left: -400px;
+    }
+    70% /* 14 second */
+    {
+        left: -400px;
+    }
+    75% /* 14 second */
+    {
+        left: -400px;
+    }
+}
 
 /* Bottom Left Content Box Styling */
 .middle-sidebar {
@@ -201,27 +247,43 @@ li{
     font-size: 85%;
 }
 
-/* Main Page Footer Positioning */
-.mainFooter p {
-    width: 100%;
-    height: 100%;
-    margin: 10px auto;
-}
-
-/* Main Page Footer Styling */
-.mainFooter {
-position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: grey;
-   color: black;
-   text-align: center;
-}
-
 #map {
   height: 400px;
   width: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color:floralwhite;
+    padding: 20px;
 }
 
 
