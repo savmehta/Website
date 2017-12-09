@@ -53,7 +53,7 @@ body{
 }
 
 .btext{
-    color: black;
+    color:white;
 }
 
 /* Index Page Content Box Heading Hyperlinks */
@@ -156,7 +156,7 @@ li{
 /* Main Content Box Styling */
 .mainContent{ 
     width: 90%;
-    background-color:floralwhite;
+    background-color: rgba(0,0,0, 0.7);
     border-radius: 5px;
     padding:2%;
     margin: 3% 100% 1% 5%;
@@ -165,7 +165,7 @@ li{
 /* Second Main Content Box Styling */
 .topcontent {
     width: 90%;
-    background-color:floralwhite;
+    background-color: rgba(0,0,0, 0.7);
     border-radius: 5px;
     padding:2%;
     margin: 3% 100% 1% 5%;
@@ -220,9 +220,9 @@ li{
 
 /* Bottom Left Content Box Styling */
 .middle-sidebar {
-    width: 27%;
+    width: 90%;
     float: left;
-    background-color: floralwhite;
+    background-color: rgba(0,0,0, 0.7);
     border-radius: 5px;
     margin: 3% 0 2% 5%;
     padding:2% 3%;
@@ -230,21 +230,21 @@ li{
 
 /* Bottom Centre Content Box Styling */
 .bottom-sidebar {
-    width: 27%;
+    width: 90%;
     float: left;
-    background-color: floralwhite;
+    background-color: rgba(0,0,0, 0.7);
     border-radius: 5px;
-    margin: 3% 0 2% 4%;
+    margin: 3% 0 2% 5%;
     padding: 2% 3%;
 }
 
 /* Bottom Right Content Box Styling */
 .bottom-sidebar2 {
-    width: 27%;
+    width: 90%;
     float: left;
-    background-color: floralwhite;
+    background-color: rgba(0,0,0, 0.7);
     border-radius: 5px;
-    margin: 3% 0 2% 4.75%;
+    margin: 3% 0 2% 5%;
     padding: 2% 3%;
 }
 /* Content Box Post Information Text Styling */
