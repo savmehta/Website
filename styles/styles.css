@@ -1,6 +1,6 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 
-{
+*{
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -279,16 +279,26 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+/* Style the submit button with a specific background color etc */
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     background-color:floralwhite;
     padding: 20px;
-}
-
-
-
-    
-    
+}    
     
 }
