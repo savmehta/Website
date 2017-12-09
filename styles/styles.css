@@ -55,16 +55,18 @@ body{
 .btext{
     color: black;
 }
+
 /* Index Page Content Box Heading Hyperlinks */
 a{
     text-decoration: none;
 }
-a:link, a:visited {
-color: #CF5C3F;
-}
-a:hover, a:active {
 
-    color: #FFF;
+a:link, a:visited {
+color: firebrick;
+}
+
+a:hover, a:active {
+    color: peachpuff;
 }
 
 /* Navigation Bar */
@@ -92,7 +94,7 @@ nav{
 .menu > li {
     float: left;
     text-align: center;
-    color: peachpuff;
+    color: firebrick;
     width: 70px;
     height: 30px;
     line-height: 30px;
@@ -111,12 +113,17 @@ nav{
 
 /* Sub Menu Navigation Bar Styling */
 .sub-menu li{
+    float: left;
+    text-align: center;
+    color: firebrick;
     width: 70px;
     height: 30px;
-    font-size: 10px;
-    background: rgba(0,0,0, 0.7);
+    line-height: 30px;
+    background-color: rgba(0,0,0, 0.7);
+    cursor: pointer;
+    font-size: 9px;
+    border-radius: 5px; 
     padding: 4px 0;
-    color: white;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
     /* display: none; */
     transform: scale(0);
