@@ -6,6 +6,7 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+
 /* Animated Page Header Positioning */
 .loader{
     position: absolute;
@@ -35,13 +36,13 @@
         background-position: left 0 top 80px;
     }
     40%{
-        background-position: left 10px top -50px;
+        background-position: left 400px top 80px;
     }
     80%{
-        background-position: left 100x top -50px;
+        background-position: left 800x top 80px;
     }
     100%{
-        background-position: left 400px top 80px;
+        background-position: left 1600px top 80px;
     }
 }
 /*Index Page Body Styling*/
@@ -192,37 +193,6 @@ li{
     float: left;
 }
 
-@keyframes slideranimation{
-    0%
-    {
-        left: 0px;
-    }
-    20% /* 4 second */
-    {
-        left: 0px;
-    }
-    25% /* 5 second */
-    {
-        left: -100px;
-    }
-    45% /* 9 second */
-    {
-        left: -200px;
-    }
-    50% /* 10 second */
-    {
-        left: -400px;
-    }
-    70% /* 14 second */
-    {
-        left: -400px;
-    }
-    75% /* 14 second */
-    {
-        left: -400px;
-    }
-}
-
 /* Bottom Left Content Box Styling */
 .middle-sidebar {
     width: 90%;
@@ -258,7 +228,7 @@ li{
     color: #999;
     font-size: 85%;
 }
-
+/* Google Map API Styling */ 
 #map {
   height: 400px;
   width: 100%;
