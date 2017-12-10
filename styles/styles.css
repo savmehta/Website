@@ -307,5 +307,9 @@ input[type=submit]:hover {
     background-color:floralwhite;
     padding: 20px;
 }    
-    
+ 
+
+.contactform{
+    color: white;
+}
 }
