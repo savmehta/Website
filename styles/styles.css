@@ -101,12 +101,12 @@ nav{
     float: left;
     text-align: center;
     color: firebrick;
-    width: 70px;
+    width: 87.5px;
     height: 30px;
     line-height: 30px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: 9px;
+    font-size: 12px;
     border-radius: 5px; 
 }
 
@@ -122,12 +122,12 @@ nav{
     float: left;
     text-align: center;
     color: firebrick;
-    width: 70px;
+    width: 87.5px;
     height: 30px;
     line-height: 30px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: 9px;
+    font-size: 12px;
     border-radius: 5px; 
     padding: 4px 0;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -289,23 +289,11 @@ input[type=submit]:hover {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
 /* Image styling used to trigger modal */
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    
 }
 
 #myImg:hover {opacity: 0.3;}
@@ -383,4 +371,24 @@ input[type=submit]:hover {
     padding: 20px;
     height: auto:
 }
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 }

@@ -76,18 +76,6 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }   
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -108,10 +96,4 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
-    
-    
-    
-    
-    
-    
 }
