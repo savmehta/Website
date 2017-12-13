@@ -77,12 +77,6 @@ function initMap() {
     map: map,
     
   });
-    
-
-
-
-
-
 
     // Get the modal
 var modal = document.getElementById('myModal');
@@ -96,7 +90,6 @@ img.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 

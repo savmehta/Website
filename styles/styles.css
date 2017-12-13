@@ -19,9 +19,9 @@
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 5em;
     color: rgba(255,255,255,.1);
-    background-image:url(Plane.jpg);
+    background-image:url('../images/plane.jpg');
     background-repeat: repeat-x;
     -webkit-background-clip: text;
     animation: animate 15s linear infinite
@@ -46,7 +46,7 @@
 }
 /*Index Page Body Styling*/
 body{
-    background-image:url(Background.png);
+    background-image:url('../images/background.png');
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -288,12 +288,14 @@ input[type=submit]:hover {
     color: white;
 }
 
-}
 /* Image styling used to trigger modal */
+
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    width: 100%; 
+    height: auto;
 }
 
 #myImg:hover {opacity: 0.3;}
@@ -367,26 +369,185 @@ input[type=submit]:hover {
     width: 100%;
     }
 
-.wrapper{
-    padding: 20px;
-    height: auto:
-}
-
 footer {
-  width: 100%;
-  height: 60px;
-  color: #E2E2E2;
-  text-align: center;
-  color: black;
+  color: black;    
 }
 
-/* FIRST BREAKPOINT (MEDIUM SIZE) */
-@media screen and (min-width: 500px){
-    body {
-        background: red;
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container img {margin-bottom: -5px}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 7px;
+}
+
+.berlincontainer{
+    width: auto;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.berlincontainer img {margin-bottom: -5px}
+
+.berlincontainer .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 7px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 1000px) {
+    .side, .middle {
+        width: 100%;
     }
+    
+/* FIRST BREAKPOINT (SMALL SIZE) */
+@media screen and (min-width: 500px){
+
+  /* Main Menu Navigation Bar Styling */
+.menu > li {
+    float: left;
+    text-align: center;
+    color: firebrick;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0, 0.7);
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px; 
+}  
+ /* Sub Menu Navigation Bar Styling */
+.sub-menu li{
+    float: left;
+    text-align: center;
+    color: firebrick;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0, 0.7);
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px; 
+    padding: 4px 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+    /* display: none; */
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 400ms ease-in-out;
+    border-radius: 5px;
+}   
+/* Animated Page Header Positioning */
+.loader{
+    position: absolute;
+    top:4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Animated Page Header Styling */
+.loader h1{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 6em;
+    color: rgba(255,255,255,.1);
+    background-image:url('../images/plane.jpg');
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite
+}
+
+/* Animated Page Header Animation */
+@keyframes animated
+{
+    0%
+    {
+        background-position: left 0 top 80px;
+    }
+    40%{
+        background-position: left 800px top 80px;
+    }
+    80%{
+        background-position: left 800x top 80px;
+    }
+    100%{
+        background-position: left 1600px top 80px;
+    }    
+    
 }
     
+body{
+    background-image:url('../images/background.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: 'Abel', sans-serif;
+    font-size: 80%;
+    text-align: left;
+}    
     
     
     
@@ -394,7 +555,99 @@ footer {
     
     
     
+/* SECOND BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 750px){
     
+    
+/* Main Menu Navigation Bar Styling */
+.menu > li {
+    float: left;
+    text-align: center;
+    color: firebrick;
+    width: 165px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0, 0.7);
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px; 
+}  
+ /* Sub Menu Navigation Bar Styling */
+.sub-menu li{
+    float: left;
+    text-align: center;
+    color: firebrick;
+    width: 165px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0, 0.7);
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px; 
+    padding: 4px 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+    /* display: none; */
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 400ms ease-in-out;
+    border-radius: 5px;
+}   
+/* Animated Page Header Positioning */
+.loader{
+    position: absolute;
+    top:5.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Animated Page Header Styling */
+.loader h1{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 8em;
+    color: rgba(255,255,255,.1);
+    background-image:url('../images/plane.jpg');
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite
+}
+
+/* Animated Page Header Animation */
+@keyframes animated
+{
+    0%
+    {
+        background-position: left 0 top 80px;
+    }
+    40%{
+        background-position: left 800px top 80px;
+    }
+    80%{
+        background-position: left 800x top 80px;
+    }
+    100%{
+        background-position: left 1600px top 80px;
+    }    
+    
+}
+    
+body{
+    background-image:url('../images/background.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: 'Abel', sans-serif;
+    font-size: 90%;
+    text-align: left;
+}    
+    
+        
+     
+/* THIRD BREAKPOINT (LARGE SIZE) */
+@media screen and (min-width: 1200px){
+       
     
     
     
