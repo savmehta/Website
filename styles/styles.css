@@ -28,7 +28,7 @@
 }
 
 /* Animated Page Header Animation */
-@keyframes animated
+@keyframes animate
 {
     0%
     {
@@ -637,7 +637,7 @@ body{
 }
 
 /* Animated Page Header Animation */
-@keyframes animated
+@keyframes animate
 {
     0%
     {
