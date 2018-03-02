@@ -35,13 +35,13 @@
         background-position: left 0 top 80px;
     }
     40%{
-        background-position: left 400px top 80px;
+        background-position: left 800px top -50px;
     }
     80%{
-        background-position: left 800x top 80px;
+        background-position: left 1800x top -50px;
     }
     100%{
-        background-position: left 1600px top 80px;
+        background-position: left 2400px top 80px;
     }
 }
 /*Index Page Body Styling*/
@@ -529,19 +529,18 @@ footer {
 /* Animated Page Header Animation */
 @keyframes animate
 {
-    0%
+   0%
     {
         background-position: left 0 top 80px;
     }
     40%{
-        background-position: left 800px top 80px;
+        background-position: left 800px top -50px;
     }
     80%{
-        background-position: left 800x top 80px;
+        background-position: left 1800x top -50px;
     }
     100%{
-        background-position: left 1600px top 80px;
-    }    
+        background-position: left 2400px top 80px;    
     
 }
     
@@ -644,14 +643,13 @@ body{
         background-position: left 0 top 80px;
     }
     40%{
-        background-position: left 800px top 80px;
+        background-position: left 800px top -50px;
     }
     80%{
-        background-position: left 800x top 80px;
+        background-position: left 1800x top -50px;
     }
     100%{
-        background-position: left 1600px top 80px;
-    }    
+        background-position: left 2400px top 80px;   
     
 }
     
