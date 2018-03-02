@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 4em;
     color: rgba(255,255,255,.1);
     background-image:url('../images/plane.jpg');
     background-repeat: repeat-x;
@@ -52,7 +52,7 @@ body{
     min-height: 100vh;
     line-height: 1.5;
     font-family: 'Abel', sans-serif;
-    font-size: 80%;
+    font-size: 90%;
     text-align: left;
 }
 /* Background Text Color Styling */
@@ -106,7 +106,7 @@ nav{
     line-height: 30px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 30px; 
 }
 
@@ -127,7 +127,7 @@ nav{
     line-height: 30px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 30px; 
     padding: 4px 0;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -471,18 +471,29 @@ footer {
     
 /* FIRST BREAKPOINT (SMALL SIZE) */
 @media only screen and (min-width: 500px){
+    
+    body{
+    background-image:url('../images/background.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: 'Abel', sans-serif;
+    font-size: 100%;
+    text-align: left;
+}  
 
   /* Main Menu Navigation Bar Styling */
 .menu > li {
     float: left;
     text-align: center;
     color: firebrick;
-    width: 110px;
+    width: 115px;
     height: 40px;
     line-height: 40px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: 17px;
+    font-size: 16px;
     border-radius: 30px; 
 }  
  /* Sub Menu Navigation Bar Styling */
@@ -490,12 +501,12 @@ footer {
     float: left;
     text-align: center;
     color: firebrick;
-    width: 110px;
+    width: 115px;
     height: 40px;
     line-height: 40px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: px;
+    font-size: 16px;
     border-radius: 30px; 
     padding: 4px 0;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -508,7 +519,7 @@ footer {
 /* Animated Page Header Positioning */
 .loader{
     position: absolute;
-    top:4%;
+    top:5.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -518,7 +529,7 @@ footer {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-size: 6em;
+    font-size: 4.5em;
     color: rgba(255,255,255,.1);
     background-image:url('../images/plane.jpg');
     background-repeat: repeat-x;
@@ -544,16 +555,15 @@ footer {
     
 }
     
-body{
-    background-image:url('../images/background.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    line-height: 1.5;
-    font-family: 'Abel', sans-serif;
-    font-size: 80%;
-    text-align: left;
-}    
+  
+    
+    
+    
+    
+    
+    
+    
+    
 }    
     
     
@@ -576,7 +586,7 @@ body{
     min-height: 100vh;
     line-height: 1.5;
     font-family: 'Abel', sans-serif;
-    font-size: 130%;
+    font-size: 120%;
     text-align: left;
 }    
     
@@ -586,11 +596,11 @@ body{
     text-align: center;
     color: firebrick;
     width: 223px;
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 30px; 
 }  
  /* Sub Menu Navigation Bar Styling */
@@ -599,11 +609,11 @@ body{
     text-align: center;
     color: firebrick;
     width: 223px;
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     background-color: rgba(0,0,0, 0.7);
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 30px; 
     padding: 4px 0;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -617,7 +627,7 @@ body{
     /* Animated Page Header Positioning */
 .loader{
     position: absolute;
-    top:7%;
+    top:8%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -653,44 +663,7 @@ body{
     
 }
     
-body{
-    background-image:url('../images/background.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    line-height: 1.5;
-    font-family: 'Abel', sans-serif;
-    font-size: 160%;
-    text-align: left;
-}    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
     
