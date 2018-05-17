@@ -9,6 +9,7 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/magnify.js"></script>
     
     <div class="loader">
         <h1>iTravel</h1>
@@ -41,7 +42,7 @@
     
     <section class= "mainContent">
         <header>
-                <h2><a href="#title=FirstPost">Welcome</a></h2>
+                <h2><a href="#title=Dubai">Amazing Dubai</a></h2>
         </header>
                 
         <footer>
@@ -49,55 +50,23 @@
         </footer>
                 
                     <div class="btext">
-                    Welcome Aboard to iTravel. We are here to help you to decide where your next holiday destination should be. With the combination of our travel experience, expertise and travel memories, we are able to help you find that dream holiday you have always wanted. Here we wills share our own holiday memories, travel routes, image galleries and more.
+                    <br>
+                    The largest city in the United Arab Emirates, the capital of the Emirate of Dubai, the global city and business hub of the Middle East, and the most Westernised economy is Dubai.
+                    <br>
+                    Dubai is simply impossible to ignore, they are leaders for property development, holding the world's tallest hotel being JW Marriott Marquis Dubai, the world's highest bulding called the Burj Khalifa, the world's biggest mall called Dubai Mall and the world's largest artifical island called the Palm Jumeirah. This city is simply record breaking. View below the amazing city from an overview.
+                    <br>
+                    <br>
+                    </div>
                         
-                          
-    <div class="slideshow-container">
-    <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="images/s1.jpg" width="100%">
-    </div>
-
-    <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="images/s2.jpg" width="100%">
-    </div>
-
-    <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="images/s3.jpg" width="100%">
-    </div>
+                    <div class="img-magnifier-container">
+                    <img id="myimage" src="images/d5.jpg" width="100%" height="100%">
+                    </div>
         
-    <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="images/s4.jpg" width="100%">
-    </div>
-        
-    <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="images/s5.jpg" width="100%">
-    </div>
-        
-    <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="images/s6.jpg" width="100%">
-    </div>
-    </div>
-                        
-    <br>
-
-    <div style="text-align:center">
-    <span class="dot" addEventListener="currentSlide(1)"></span>
-    <span class="dot" addEventListener="currentSlide(2)"></span>
-    <span class="dot" addEventListener="currentSlide(3)"></span>
-    <span class="dot" addEventListener="currentSlide(4)"></span>
-    <span class="dot" addEventListener="currentSlide(5)"></span>
-    <span class="dot" addEventListener="currentSlide(6)"></span>
-    <div class="text-wrapper">
-    </div>
-    </div>
-    </div>
-                     
+                    <script>
+                    /*Execute the magnify function:*/
+                    magnify("myimage", 3);
+                    /*Specify the id of the image, and the strength of the magnifier glass:*/ 
+                    </script>         
     </section>
     
     <section class="mainContent">
@@ -107,17 +76,21 @@
                  <footer>
                     <p class="post-info">This post is written by Savan</p>
                 </footer>
-  
+                <br>
                 <div class="btext">
                 The city of love, such a beautiful landscape. This city is a must for you and a partner, put this on your bucket list! The iconic Eifell Tower is the site to see.
+                <br>
+                <br>
+                <div class="img-comp-container">
+                <div class="img-comp-img">
+                <img src="images/d3.jpg" width="100%" height="100%">
                 </div>
-
-    <div id="map"></div>
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ_enU_7Fed2hWXEE8tF7DtjR2LFL8ZiQ&callback=initMap"></script>
-    <script src="js/main.js"></script>
-    
-                
+                <div class="img-comp-img img-comp-overlay">
+                <img src="images/d4.jpg" width="100%" height="100%">
+                </div>
+                </div>
+                </div>  
+            
     </section>
     
     <aside class="middle-sidebar">
@@ -133,38 +106,15 @@
                 </div>
                 </article>
     </aside>
-    
-    <aside class="bottom-sidebar">
-        
-                <header> 
-                <h2>
-                <a href="#title=TopBerlin">Top hotspots in Berlin</a></h2>
-                </header>
-                
-                <footer>
-                    <p class="post-info">This post is written by Savan</p>
-                </footer>
-        
-                <div class="btext">
-                    There are many top hotspots in Berlin; thes of whic are the Christmas Markets
-                </div>
-    </aside>
-    
-    <aside class="bottom-sidebar2">
-        
-                <header> 
-                <h2><a href="#title=TopRome">Top hotspots in Rome</a></h2>
-                </header>
-                
-                <footer>
-                    <p class="post-info">This post is written by Savan</p>
-                </footer>
-        
-                <div class="btext">
-                There are many top hotspots in Berlin; thes of whic are the 
-                </div>
-    </aside>
 
+ <!-- START OF FOOTER -->
+    <div class="footer">
+      <ul>
+      <li> <a href="index.html" class="footerlink">iTravel.com</a></li>
+			<li> <a href="sitemap.xml" class="footerlink">Sitemap</a></li>
+		</ul>
+    </div>
+    <!-- END OF FOOTER -->
     </body>
     
 </html>

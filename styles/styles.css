@@ -383,16 +383,6 @@ input[type=submit]:hover {
     width: 100%;
     }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    }
-
 .container {
     position: relative;
     max-width: 800px;
@@ -484,6 +474,57 @@ input[type=submit]:hover {
 
 }
 
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Tower{
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all 1.5s ease-in;
+}
+
+.Tower:hover img{
+    transform: scale(1.8);
+    transition: all 1.5s ease-in;
+    filter: brightness(1.25);
+}
+
+.footer{
+    text-align: center;
+}
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
 /* FIRST BREAKPOINT (SMALL SIZE) */
 @media only screen and (min-width: 750px){
 
@@ -494,7 +535,7 @@ input[type=submit]:hover {
     min-height: 100vh;
     line-height: 1.5;
     font-family: 'Abel', sans-serif;
-    font-size: 85%;
+    font-size: 110%;
     text-align: left;
 }
 
@@ -581,7 +622,7 @@ input[type=submit]:hover {
     min-height: 100vh;
     line-height: 1.5;
     font-family: 'Abel', sans-serif;
-    font-size: 70%;
+    font-size: 130%;
     text-align: left;
 }
 
