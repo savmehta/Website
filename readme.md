@@ -17,6 +17,9 @@
 
 ![Wireframe 2](https://github.com/savmehta/Website/blob/master/images/wireframe2.png)
 
+<h2>Developing the website<h2>
+
+The development process of the website was a new experience in terms of lab work being carried out for the first time, this experience was gained, and the knowledge and skills were implemented into this final website. The website consists of HTML5 Semantic Mark-Up, JavaScript and CSS and these are all within separate files, .HTML, .CSS and .JS. Initially, the website did look nothing like it does now, the navigation bar was very simple, however changes were made to the navigation bar to create animated features. As the development progressed, many features were added with JavaScript and CSS i.e. magnifying glass on Dubai page JavaScript, Google Map API JavaScript, image slideshows, CSS styling animations and more. The colour scheme and layout are simple, tidy and pleasing to look at. The website is responsive at three media breakpoints, and it works well on many devices. 
 <h2>HTML Validation</h2>
 
 The HTML pages were all validated using the W3C Markup Validation Service. Below are screenshots of the results.
@@ -119,7 +122,26 @@ Samsumg S8 - Mozilla Firefox
 
 <h2>User Testing<h2>
 
+The website has been tested on several colleagues’ desktops, mobile phones, and also family and friends have tested this website throughout the development process, and also at the end of it. This testing has been important as I was able to hear a second opinion on it and this made me see areas which I was not aware that needed improvement. 
 
 <h2>References<h2>
 
+W3schools.com. (2018). CSS Image Gallery. [online] Available at: https://www.w3schools.com/css/css_image_gallery.asp [Accessed 18 May 2018].
 
+W3schools.com. (2018). CSS Navigation Bar. [online] Available at: https://www.w3schools.com/css/css_navbar.asp [Accessed 18 May 2018].
+
+W3schools.com. (2018). CSS Layout - width and max-width. [online] Available at: https://www.w3schools.com/css/css_max-width.asp [Accessed 18 May 2018].
+
+W3schools.com. (2018). CSS Forms. [online] Available at: https://www.w3schools.com/css/css_form.asp [Accessed 18 May 2018].
+
+Guides.github.com. (2018). Mastering Markdown · GitHub Guides . [online] Available at: https://guides.github.com/features/mastering-markdown/ [Accessed 18 May 2018].
+
+W3schools.com. (2018). Responsive Web Design Viewport. [online] Available at: https://www.w3schools.com/css/css_rwd_viewport.asp [Accessed 18 May 2018].
+
+GitHub. (2018). CTEC3905/08-lab-json-ajax. [online] Available at: https://github.com/CTEC3905/08-lab-json-ajax/tree/googlemaps [Accessed 18 May 2018].
+
+GitHub. (2018). DaveEveritt/pure-css-image-slideshow. [online] Available at: https://github.com/daveeveritt/pure-css-image-slideshow [Accessed 18 May 2018].
+
+GitHub. (2018). CTEC3905/js-show-hide. [online] Available at: https://github.com/CTEC3905/js-show-hide [Accessed 18 May 2018].
+
+GitHub. (2018). CTEC3905/04-lab. [online] Available at: https://github.com/CTEC3905/04-lab [Accessed 18 May 2018].
