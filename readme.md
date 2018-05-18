@@ -17,6 +17,36 @@
 
 ![Wireframe 2](https://github.com/savmehta/Website/blob/master/images/wireframe2.png)
 
+<h2>HTML Validation</h2>
+
+The HTML pages were all validated using the W3C Markup Validation Service. Below are screenshots of the results.
+
+About Us HTML Validation
+![About Us Validate](https://github.com/savmehta/Website/blob/master/images/aboutusvalidate.png)
+
+Berlin HTML Validation
+![Berlin Validate](https://github.com/savmehta/Website/blob/master/images/berlinvalidate.png)
+
+Contact Us HTML Validation
+![Contact Us Validate](https://github.com/savmehta/Website/blob/master/images/contactusvalidate.png)
+
+Dubai HTML Validation
+![Dubai Validate](https://github.com/savmehta/Website/blob/master/images/dubaivalidate.png)
+
+Index HTML Validation
+![Index Validate](https://github.com/savmehta/Website/blob/master/images/indexvalidate.png)
+
+Rome HTML Validation
+![Rome Validate](https://github.com/savmehta/Website/blob/master/images/romevalidate.png)
+
+
+<h2>CSS Validation</h2>
+
+The CSS was validated using the W3C CSS Validation Service. Below is a screenshot of this.
+
+CSS Validation
+![CSS Validate](https://github.com/savmehta/Website/blob/master/images/cssvalidation.png)
+
 <h2>Testing</h2>
 
 The website was tested on Google Chrome on MacOs Sierra. Below are screenshots of the website being displayed.
@@ -75,3 +105,21 @@ Home Page - Google Chrome Desktop iPhone
 
 Rome Page - Google Chrome Desktop iPhone
 ![Chrome iPhone Rome](https://github.com/savmehta/Website/blob/master/images/iphonerome.png)
+
+Testing was also carried out on a mobile phone device. The device used was a Samsung S8 Android Device. Below are screenshots of this. 
+
+Samsumg S8 - Google Chrome
+![S8 Chrome](https://github.com/savmehta/Website/blob/master/images/s8chrome.jpg)
+
+Samsumg S8 - Microsoft Edge
+![S8 Edge](https://github.com/savmehta/Website/blob/master/images/s8edge.jpg)
+
+Samsumg S8 - Mozilla Firefox
+![S8 Firefox](https://github.com/savmehta/Website/blob/master/images/s8firefox.jpg)
+
+<h2>User Testing<h2>
+
+
+<h2>References<h2>
+
+
