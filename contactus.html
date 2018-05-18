@@ -9,15 +9,12 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale1.0">
-    
+    </head>
+    <body class="body">  
      <div class="loader">
         <h1>iTravel</h1>
     </div> 
 
-</head>
- 
-<body class="body">   
-        
     <header class="mainHeader">
     
         <img alt="Logo" src="images/logo.png">
@@ -56,7 +53,7 @@
     <label for="email">E-mail</label><br>
     <input type="text" id="email" name="E-mail " placeholder="Enter your e-mail..."><br>
     
-<label for="countryCode">Contact Number</label><br>
+    <label for="countryCode">Contact Number</label><br>
     <select id="countryCode" name="Area Code ">    
     <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
 	<option data-countryCode="US" value="1">USA (+1)</option>
@@ -276,10 +273,9 @@
 		<option data-countryCode="ZM" value="260">Zambia (+260)</option>
 		<option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
         </optgroup>
-        <br><input type="text" id="number" name="Contact Number (excluding area code) " placeholder="Enter your number excluding your area code...">
-        </select><br>
-    
-
+        </select>
+        <input type="text" id="number" name="Contact Number (excluding area code) " placeholder="Enter your number excluding your area code...">
+        <br>
         <label for="country">Country</label><br>
         <select id="country" name="Country ">    
         <option value="AF">Afghanistan</option>
@@ -531,8 +527,7 @@
         <option value="YE">Yemen</option>
         <option value="ZM">Zambia</option>
         <option value="ZW">Zimbabwe</option>
-        </select><br>
-
+        </select>
         <label for="comment">Comment</label><br>
         <textarea id="comment" name="Comment " placeholder="Please leave a comment here..." ></textarea><br>
     
@@ -553,6 +548,5 @@
 		</ul>
     </div>
     <!-- END OF FOOTER -->
-    
-</body>
+    </body>
 </html>

@@ -45,12 +45,16 @@
         background-position: left 2400px top 80px;
     }
 }
+
+/* Dubai YouTube Video */ 
 .dubai360 {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
+
+/* Dubai YouTube Video iFrame */ 
 .dubai360 iframe {
 	position: absolute;
 	top: 0;
@@ -189,12 +193,16 @@ li{
     border-radius: 5px;
     padding:2%;
     margin: 3% 100% 1% 5%;
+    
+/* Sliderbox Container */ 
 }
 .container{
     width: 300px;
     overflow: hidden;
 
 }
+
+/* Sliderbox */ 
 .sliderbox{
     position: relative;
     width: 200px;
@@ -203,6 +211,7 @@ li{
     animation-iteration-count: infinite;
 }
 
+/* Sliderbox Image */ 
 .sliderbox img{
     float: left;
 }
@@ -248,19 +257,19 @@ li{
   width: 100%;
 }
 
-/* Contact Us Page Style inputs with type="text", select elements and textareas */
+/* Contact Us Page Style inputs with type="text" */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
+    padding: 12px; /* Padding */
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
+    box-sizing: border-box; /* Padding and width in place */
+    margin-top: 6px; /* Top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical /* User able to vertically resize the textarea, not horizontally */
 }
 
-/* Contact Us Page Style the submit button with a specific background color etc */
+/* Contact Us Page Style, Submit button with specific background color */
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -270,27 +279,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* Contact Us Page When moving the mouse over the submit button, add a darker green color */
+/* Contact Us Page, Hovering mouse over the submit button color changed to darker green */
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* Contact Us Page Style the submit button with a specific background color etc */
-input[type=reset] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Contact Us Page When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Contact Us Page Add a background color and some padding around the form */
+/* Contact Us Page, Floral white background color with padding around the form 20px */
 .container {
     border-radius: 5px;
     background-color:floralwhite;
@@ -514,18 +508,15 @@ input[type=submit]:hover {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-  width: var(--picWidth);
+  width: 100%;
   height: 448px;
-  /* uncomment to check if colour shows below images - if so, reduce height: */
-  /* background: red; */
 }
 
 .slideshow img {
-  /* position all images on top of each other: */
+  /* Images positioned on top of each other: */
   position: absolute;
-  width: var(--picWidth);
+  width: 100%;
   opacity: 0;
-  /* set the duration to match nth-child(1): */
   animation: round 21s infinite;
 }
 
@@ -543,7 +534,7 @@ img:nth-child(2) { animation-delay: 14s; }
 img:nth-child(3) { animation-delay: 7s; }
 img:nth-child(4) { animation-delay: 0s; }
 
-
+/* Magnifying Image */
 * {box-sizing: border-box;}
 
 .img-magnifier-container {
@@ -559,7 +550,95 @@ img:nth-child(4) { animation-delay: 0s; }
   width: 100px;
   height: 100px;
 }
+.d5{
+    height 100%;
+    width: 100%;
+}
 
+.d4{
+    height 100%;
+    width: 100%;
+}
+
+.bg1{
+    width: 100%;
+}
+
+.bg2{
+    width: 100%;
+}
+
+.bg3{
+    width: 100%;
+}
+
+.bg4{
+    width: 100%;
+}
+
+.s1{
+    width:100%;
+}
+
+.s2{
+    width:100%;
+}
+
+.s3{
+    width:100%;
+}
+
+.s4{
+    width:100%;
+}
+
+.s5{
+    width:100%;
+}
+
+.s6{
+    width:100%;
+}
+
+.f1{
+    width:100%;
+}
+
+.f2{
+    width:100%;
+}
+
+.f3{
+    width:100%;
+}
+
+
+.f4{
+    width:100%;
+}
+
+.f5{
+    width:100%;
+}
+
+.f6{
+    width:100%;
+}
+
+.romevideo{
+    width:100%;
+}
+.iframe{
+    width=100%; 
+    height=100%; 
+    border: 0;
+}
+
+.BerlinTower{
+    height: 100%;
+    width:100%;
+}
+/* JS Show Hide Text */
 .show {
   display: block !important;
 }
@@ -580,6 +659,9 @@ img:nth-child(4) { animation-delay: 0s; }
   display: none;
 }
 
+.slideshow-container{
+    width=100%;
+}
 
 /* FIRST BREAKPOINT (SMALL SIZE) */
 @media only screen and (min-width: 750px){
