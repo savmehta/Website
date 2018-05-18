@@ -13,10 +13,10 @@
 <p>As my website will be responsive, I have created a mobile view design as well as a regular desktop view design, there will be no tablet design as this is compatible with the desktop. I had begun designing my website plan with a prototype on Adobe Photoshop where I had my initial designs. I have a mobile design and a web design. These were very basic designs, I then decided to further develop these designs but in a paper sketch. These have annotations and more of a vision. These images are attached below, firstly my design and then my wireframe sketches.</p>
 
 ![Wireframe 1]
-(https://github.com/savmehta/Website/blob/master/images/wireframe1.png)
+(Website/images/wireframe1.png)
 
 ![Wireframe 2]
-(https://github.com/savmehta/Website/blob/master/images/wireframe2.png)
+(Website/images/wireframe2.png)
 
 
 
