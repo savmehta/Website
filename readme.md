@@ -20,6 +20,7 @@
 <h2>Developing the website<h2>
 
 The development process of the website was a new experience in terms of lab work being carried out for the first time, this experience was gained, and the knowledge and skills were implemented into this final website. The website consists of HTML5 Semantic Mark-Up, JavaScript and CSS and these are all within separate files, .HTML, .CSS and .JS. Initially, the website did look nothing like it does now, the navigation bar was very simple, however changes were made to the navigation bar to create animated features. As the development progressed, many features were added with JavaScript and CSS i.e. magnifying glass on Dubai page JavaScript, Google Map API JavaScript, image slideshows, CSS styling animations and more. The colour scheme and layout are simple, tidy and pleasing to look at. The website is responsive at three media breakpoints, and it works well on many devices. 
+
 <h2>HTML Validation</h2>
 
 The HTML pages were all validated using the W3C Markup Validation Service. Below are screenshots of the results.
