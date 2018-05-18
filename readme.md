@@ -123,9 +123,12 @@ Samsumg S8 - Mozilla Firefox
 
 <h2>User Testing<h2>
 
+
 The website has been tested on several colleagues’ desktops, mobile phones, and also family and friends have tested this website throughout the development process, and also at the end of it. This testing has been important as I was able to hear a second opinion on it and this made me see areas which I was not aware that needed improvement. 
 
+
 <h2>References<h2>
+
 
 W3schools.com. (2018). CSS Image Gallery. [online] Available at: https://www.w3schools.com/css/css_image_gallery.asp [Accessed 18 May 2018].
 
