@@ -39,7 +39,7 @@
         background-position: left 800px top -50px;
     }
     80%{
-        background-position: left 1800x top -50px;
+        background-position: left 1800px top -50px;
     }
     100%{
         background-position: left 2400px top 80px;
@@ -219,7 +219,7 @@ li{
 /* Bottom Left Content Box Styling */
 .middle-sidebar {
     width: 90%;
-    float: center;
+    float: left;
     background-color: rgba(0,0,0, 0.7);
     border-radius: 5px;
     margin: 3% 0 2% 5%;
@@ -420,7 +420,7 @@ input[type=submit]:hover {
     color: orange;
 }
 
-* Three column layout */
+/* Three column layout */
 .side {
     float: left;
     width: 15%;
@@ -535,7 +535,6 @@ img:nth-child(3) { animation-delay: 7s; }
 img:nth-child(4) { animation-delay: 0s; }
 
 .d5{
-    height 100%;
     width: 100%;
 }
 
@@ -557,7 +556,6 @@ img:nth-child(4) { animation-delay: 0s; }
 }
 
 .d4{
-    height 100%;
     width: 100%;
 }
 
@@ -630,8 +628,8 @@ img:nth-child(4) { animation-delay: 0s; }
     width:100%;
 }
 .iframe{
-    width=100%; 
-    height=100%; 
+    width:100%; 
+    height:100%; 
     border: 0;
 }
 
@@ -661,7 +659,7 @@ img:nth-child(4) { animation-delay: 0s; }
 }
 
 .slideshow-container{
-    width=100%;
+    width:100%;
 }
 
 /* FIRST BREAKPOINT (SMALL SIZE) */
@@ -743,7 +741,7 @@ img:nth-child(4) { animation-delay: 0s; }
         background-position: left 800px top -50px;
     }
     80%{
-        background-position: left 1800x top -50px;
+        background-position: left 1800px top -50px;
     }
     100%{
         background-position: left 2400px top 80px;
@@ -831,15 +829,13 @@ img:nth-child(4) { animation-delay: 0s; }
         background-position: left 800px top -50px;
     }
     80%{
-        background-position: left 1800x top -50px;
+        background-position: left 1800px top -50px;
     }
     100%{
         background-position: left 2400px top 80px;
 
+    }
+    }
 }
-
-
-
-
-
 }
+    
